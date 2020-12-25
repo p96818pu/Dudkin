@@ -17,6 +17,10 @@ require_once('dudkin\MyLog.php');
 require_once('dudkin\DudkinException.php');
 
 try {
+    $fileOpen = fopen("version", "r");
+    MyLog::log("Version program: " . fgets($fileOpen));
+    fclose($fileOpen);
+
     echo "Enter 3 parameters: a, b, c \n\r";
 
     $a = (float)readline();
