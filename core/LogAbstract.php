@@ -20,3 +20,5 @@ protected $log = array();
 
 abstract public function _write();
 }
+
+?>
