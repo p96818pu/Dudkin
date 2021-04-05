@@ -1,0 +1,30 @@
+{
+    "name": "p96816pu/dudkin",
+    "description": "Dudkin",
+    "type": "project",
+	"license": "-",
+	
+	"minimum-stability": "dev",
+		
+    "require": {
+		 "p96816pu/dudkinlib": "^1.0",
+		 "ext-readline": "*"
+	},
+	
+	"scripts": {
+    "post-install-cmd": [
+        "git symbolic-ref --short -q HEAD>version"
+    ]
+  },
+
+	"repositories": [
+		{	
+			"type": "git",
+			"url": "https://github.com/rok9ru/trpo-core"
+		}, 
+		{	
+			"type": "git",
+			"url": "https://github.com/p96818pu/DudkinLib.git"
+		}
+	]
+}

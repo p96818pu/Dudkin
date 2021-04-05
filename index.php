@@ -7,14 +7,8 @@ use dudkin\SquareEq;
 ini_set("display_errors", 1);
 error_reporting(-1);
 
-require_once('core\EquationInterface.php');
-require_once('core\LogInterface.php');
-require_once('core\LogAbstract.php');
+require_once('vendor\autoload.php');
 
-require_once('dudkin\LineEq.php');
-require_once('dudkin\SquareEq.php');
-require_once('dudkin\MyLog.php');
-require_once('dudkin\DudkinException.php');
 
 try {
     $fileOpen = fopen("version", "r");
