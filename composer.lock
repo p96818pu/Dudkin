@@ -4,18 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8068470398d9a70587f675d58bd1a161",
+    "content-hash": "7ad9b658c019eb25b4a1d9b1b792a801",
     "packages": [
         {
             "name": "p96816pu/dudkinlib",
-            "version": "1.0",
+            "version": "2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/p96818pu/DudkinLib.git",
-                "reference": "5ef97ecab24c337d8b108b3e216da60bc07f7c6f"
+                "reference": "673d2a93fb998cba736c8eb4e5ba445ae07b20c6"
             },
             "require": {
                 "rok9ru/trpo-core": "2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9"
             },
             "type": "library",
             "autoload": {
@@ -27,7 +30,7 @@
                 "-"
             ],
             "description": "DudkinLibrary",
-            "time": "2021-04-05T15:30:54+00:00"
+            "time": "2021-04-10T06:51:51+00:00"
         },
         {
             "name": "rok9ru/trpo-core",

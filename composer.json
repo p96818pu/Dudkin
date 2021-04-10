@@ -7,7 +7,7 @@
 	"minimum-stability": "dev",
 		
     "require": {
-		 "p96816pu/dudkinlib": "^1.0",
+		 "p96816pu/dudkinlib": "^2.0",
 		 "ext-readline": "*"
 	},
 	

@@ -11,9 +11,6 @@ require_once __DIR__ . './vendor/autoload.php';
 
 
 try {
-    $fileOpen = fopen("version", "r");
-    MyLog::log("Version program: " . fgets($fileOpen));
-    fclose($fileOpen);
 
     echo "Enter 3 parameters: a, b, c \n\r";
 
